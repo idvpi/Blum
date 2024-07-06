@@ -159,7 +159,7 @@ try {
         observer.observe(appElement, { childList: true, subtree: true });
     }
 
-    continuousPlayButtonCheck();
+    // continuousPlayButtonCheck();
 
     const pauseButton = document.createElement('button');
     pauseButton.textContent = 'Pause';
